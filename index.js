@@ -1,7 +1,7 @@
 function takeANumber(katzDeliLine, name) {
-  
-  katzDeliLine.push(katzDeliLine.length+1);
-  return `You are number ${katzDeliLine.length}.`;
+  var num = katzDeliLine.length+1;
+  katzDeliLine.push(num);
+  return `You are number ${num}`;
 }
 
 function nowServing(katzDeliLine) {
@@ -30,3 +30,12 @@ function currentLine(katzDeliLine) {
   
   return currently;
 }
+
+let line = []
+
+takeANumber(line)
+takeANumber(line)
+nowServing(line)
+takeANumber(line) 
+
+[2,2]
