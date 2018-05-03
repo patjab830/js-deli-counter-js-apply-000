@@ -1,7 +1,7 @@
 var counter = 0
 function takeANumber(katzDeliLine, name) {
   counter++
-  katzDeliLine.push(num);
+  katzDeliLine.push(counter);
   return `You are number ${num}`;
 }
 
