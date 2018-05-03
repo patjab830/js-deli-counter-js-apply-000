@@ -1,3 +1,4 @@
+var counter = 0
 function takeANumber(katzDeliLine, name) {
   var num = katzDeliLine.length+1;
   katzDeliLine.push(num);
@@ -37,6 +38,6 @@ takeANumber(line)
 takeANumber(line)
 nowServing(line)
 nowServing(line)
-console.log(line)
+console.log(line) //=> []
 takeANumber(line) 
 
