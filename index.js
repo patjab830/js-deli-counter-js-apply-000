@@ -1,6 +1,6 @@
 var counter = 0
 function takeANumber(katzDeliLine, name) {
-  var num = katzDeliLine.length+1;
+  var num = katzDeliLine.+1;
   katzDeliLine.push(num);
   return `You are number ${num}`;
 }
