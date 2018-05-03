@@ -40,4 +40,3 @@ nowServing(line)
 console.log(line)
 takeANumber(line) 
 
-[2,2]
