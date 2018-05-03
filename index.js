@@ -2,7 +2,7 @@ var counter = 0
 function takeANumber(katzDeliLine, name) {
   counter++
   katzDeliLine.push(counter);
-  return `You are number ${num}`;
+  return `You are number ${counter}`;
 }
 
 function nowServing(katzDeliLine) {
