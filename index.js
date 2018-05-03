@@ -36,6 +36,8 @@ let line = []
 takeANumber(line)
 takeANumber(line)
 nowServing(line)
+nowServing(line)
+console.log(line)
 takeANumber(line) 
 
 [2,2]
